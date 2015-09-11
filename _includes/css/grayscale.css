@@ -254,9 +254,21 @@ a:focus {
 
 .projects-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 10px 0;
     color: #fff;
-    background: url(/img/coffeeshop-bg.jpg) no-repeat center center scroll;
+    background: url(/img/stardust.png) no-repeat center center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.blog-section {
+    width: 100%;
+    padding: 10px 0;
+    color: #fff;
+    background: url(/img/ship.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -266,7 +278,7 @@ a:focus {
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 10px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
