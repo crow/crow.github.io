@@ -1,26 +1,26 @@
-# Site settings
-title: David Crow
-email: jdavidcrow@gmail.com
-url: https://crow.github.io
-description: "Info, personal and impersonal projects."
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary-dark: '#000000'
-  links: '#219ab3'
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
 
-# Footer settings
-footer: David Crow
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: github
-    url: https://github.com/crow
-  - title: twitter
-    url: https://twitter.com/lisaloebscat
-  - title: linkedin
-    url: https://www.linkedin.com/pub/david-crow/22/423/1b3
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
